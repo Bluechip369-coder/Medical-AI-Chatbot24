@@ -31,6 +31,6 @@ Create your own AI Doctor Voice Assistant using cutting-edge open-source tools a
 📦 Installation
 
 ```bash
-git clone https://github.com/Rajshekar badiger/medical-ai-chatbot.git
+git clone 
 cd medical-ai-chatbot
 pip install -r requirements.txt
