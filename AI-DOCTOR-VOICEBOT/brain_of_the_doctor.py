@@ -19,7 +19,7 @@ query="Is there something wrong with my face?"
 model="llama3-70b-8192"
 
 def analyze_image_with_query(query, model, encoded_image):
-  client = Groq(api_key="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")
+  client = Groq(api_key="put your own key")
 
 
   messages = [
