@@ -25,7 +25,7 @@ from elevenlabs import save
 ELEVENLABS_API_KEY=os.environ.get("ELEVENLABS_API_KEY")
 
 def text_to_speech_with_elevenlabs_old(input_text, output_filepath):
-    client=ElevenLabs(api_key="sk_20f292f820252d16c2263b4767da05b139582d221ff09f44")
+    client=ElevenLabs(api_key="put your own key")
     audio=client.generate(
         text= input_text,
         voice= "Aria",
